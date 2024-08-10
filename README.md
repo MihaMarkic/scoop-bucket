@@ -10,7 +10,7 @@ After manifests have been committed and pushed, run the following:
 
 ```pwsh
 scoop bucket add mihamarkic https://github.com/MihaMarkic/scoop-bucket
-scoop install <bucketname>/<manifestname>
+scoop install mihamarkic/<manifestname>
 ```
 
 ## How do I contribute new manifests?
