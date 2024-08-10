@@ -1,0 +1,23 @@
+{
+    "version": "0.1.0",
+    "description": "IDE for developing C64 programs using KickAssembler and VICE emulator",
+    "homepage": "https://github.com/MihaMarkic/C64-Assembler-Studio",
+    "license": "MIT",
+    "extract_dir": "C64AssemblerStudio_0_1_0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/MihaMarkic/C64-Assembler-Studio/releases/tag/0.1.0/C64AssemblerStudio_0_1_0_win_x64.zip",
+            "hash": "15cf0f5a6493d6b812c3fca434bc2588f7bbce2bd5d91611af3748440e2531ef"
+        }
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/MihaMarkic/C64-Assembler-Studio/releases/tag/$version/C64AssemblerStudio_$underscoreVersion_win_x64.zip"
+            }
+        },
+        "extract_dir": "C64AssemblerStudio_$underscoreVersion",
+        "notes": "https://github.com/MihaMarkic/C64-Assembler-Studio/releases/tag/$version/notes.txt"
+    }
+}
