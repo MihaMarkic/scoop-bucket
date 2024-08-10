@@ -6,15 +6,15 @@
     "extract_dir": "C64AssemblerStudio_0_1_0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MihaMarkic/C64-Assembler-Studio/releases/tag/0.1.0/C64AssemblerStudio_0_1_0_win_x64.zip",
-            "hash": "15cf0f5a6493d6b812c3fca434bc2588f7bbce2bd5d91611af3748440e2531ef"
+            "url": "https://github.com/MihaMarkic/C64-Assembler-Studio/releases/download/0.1.0/C64AssemblerStudio_0_1_0_win_x64.zip",
+            "hash": "7c507491b3cd10724fa3dc8ee78de2feab3b0b746887073f2b6f3ad067fa9113"
         }
     },
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/MihaMarkic/C64-Assembler-Studio/releases/tag/$version/C64AssemblerStudio_$underscoreVersion_win_x64.zip"
+                "url": "https://github.com/MihaMarkic/C64-Assembler-Studio/releases/download/$version/C64AssemblerStudio_$underscoreVersion_win_x64.zip"
             }
         },
         "extract_dir": "C64AssemblerStudio_$underscoreVersion",
