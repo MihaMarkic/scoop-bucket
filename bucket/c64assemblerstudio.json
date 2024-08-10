@@ -4,6 +4,7 @@
     "homepage": "https://github.com/MihaMarkic/C64-Assembler-Studio",
     "license": "MIT",
     "extract_dir": "C64AssemblerStudio_0_1_0",
+	"bin": "C64AssemblerStudio.exe",
     "architecture": {
         "64bit": {
             "url": "https://github.com/MihaMarkic/C64-Assembler-Studio/releases/download/0.1.0/C64AssemblerStudio_0_1_0_win_x64.zip",
