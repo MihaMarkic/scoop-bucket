@@ -9,7 +9,7 @@ Bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 After manifests have been committed and pushed, run the following:
 
 ```pwsh
-scoop bucket add <bucketname> https://github.com/<username>/<bucketname>
+scoop bucket add mihamarkic https://github.com/MihaMarkic/scoop-bucket
 scoop install <bucketname>/<manifestname>
 ```
 
